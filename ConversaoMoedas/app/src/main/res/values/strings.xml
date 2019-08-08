@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConversaoMoedas</string>
+    <string name="ValorReal">Valor em Real(R$)</string>
+    <string name="ValorDolar">Valor em Dolar(US$)</string>
+    <string name="ValorEuro">Valor em Euro()</string>
+    <string name="TextBtn">Calcula Conversão</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@color/colorBlueLight"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:text="@string/ValorReal" />
+
+        <EditText
+            android:id="@+id/text_real"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:textSize="16sp"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/ValorDolar"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_dolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="1000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/ValorEuro"
+            android:layout_marginTop="16dp"/>/>
+
+        <TextView
+            android:id="@+id/text_euro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="1000" />
+
+        <Button
+            android:id="@+id/btn_calcula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextBtn"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorWhite"
+            android:textColorHighlight="@color/colorPrimaryDark"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
